@@ -28,6 +28,9 @@ main {
     padding-bottom: 8rem;
 }
 
+
+
+
 .teacher-container {
     max-width: 450px;
     padding: 10px ;
@@ -86,4 +89,15 @@ main {
 .teacher-contract-button:hover {
     background-color: #cd1c60;
 
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    
+
+}
+
+footer a {
+    text-decoration: none;    
 }

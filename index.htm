@@ -16,13 +16,15 @@
     </header>
 
     <main>
+     
         <section class="teacher-container">
             <img src="./static/img/AdaLovelace.webp" alt="foto programação" class="teacher-img">
             <p><strong class="teacher-name">Ada Lovelace</strong></p>
             <p class="teacher-price">R$ 250,00</p>
             <p class="teacher-description">Professora de programação, com séculos de experiência. Responsável por escrever aquele que veio a ser conhecido como o primeiro algoritmo de computador da história</p>
             <form class="teacher-contract">
-                <input type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
+                <input name="price" type="hidden" value="250">
+                <input required min="1" max="3" name="hours" type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
                 <button type="submit" class="teacher-contract-button">Calcular valor total</button>
             </form>
         </section>
@@ -33,11 +35,16 @@
             <p class="teacher-price">R$ 150,00</p>
             <p class="teacher-description">O pai da computação, por meio de suas ideias, foi possível desenvolver o que chamamos hoje de computador.</p>
             <form class="teacher-contract">
-                <input type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
+                <input name="price" type="hidden" value="150">
+                <input required min="1" max="3" name="hours" type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
                 <button type="submit" class="teacher-contract-button">Calcular valor total</button>
             </form>
         </section>
     </main>
-    
+    <footer>
+        <a href="https://www.linkedin.com/in/patyfreitasbr/" target="_blank">Concte-se comigo: <strong>Patrícia Freitas</strong></a>
+    </footer>
+
+    <script src="static/script.js"></script> 
 </body>
 </html>
