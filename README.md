@@ -12,7 +12,7 @@
 
 ## Como acessar o site
 
-Acesse atraves do link <a href="#" target="_blank">LINK AQUI</a>
+Acesse atraves do link <a href="https://patyfreitasbr.github.io/mentor-match/" target="_blank">https://patyfreitasbr.github.io/mentor-match/</a>
 
 
  ## Funcionalidades 
